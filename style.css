@@ -2,15 +2,6 @@
 @import url("https://spoqa.github.io/spoqa-han-sans/css/SpoqaHanSans-kr.css");
 
 
-
-#centerWindow {
-  position:absolute;
-
-  top:50%;
-  left:50%;
- }
-
-
  .middle {
    /* 이하 필수 설정 */
    position: absolute; left: 50%; top: 50%;
