@@ -58,6 +58,6 @@ img {
     display: inline-block;
     width: auto\9 !important; /* ie8 */
     width: auto !important;
-    max-width: 100%;
+    max-width: 150%;
     height: auto !important;
 }
