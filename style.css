@@ -44,6 +44,7 @@ body, input, select, textarea, p {
     letter-spacing: 2px;
     line-height: 1.65;;
 }
+}
 
 @media screen and (max-width: 480px) {
   :lang(ko) {
@@ -56,6 +57,7 @@ body, input, select, textarea, p {
     font-size: 1.5rem;
     letter-spacing: 2px;
     line-height: 1.65;;
+}
 }
 
   img {
