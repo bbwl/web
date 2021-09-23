@@ -40,6 +40,10 @@ body, input, select, textarea {
     letter-spacing: 2px;
     line-height: 1.65;;
 }
+img {
+  max-width: 100%; height: auto;
+}
+}
 
 @media screen and (max-width: 480px) {
   :lang(ko) {
@@ -53,11 +57,7 @@ body, input, select, textarea {
     letter-spacing: 2px;
     line-height: 1.65;;
 }
-
 img {
-    display: inline-block;
-    width: auto\9 !important; /* ie8 */
-    width: auto !important;
-    max-width: 100%;
-    height: auto !important;
+  max-width: 100%; height: auto;
+}
 }
