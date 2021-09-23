@@ -48,13 +48,13 @@ body, input, select, textarea {
 
 @media screen and (max-width: 480px) {
   :lang(ko) {
-    font-size: 1.5rem;
+    font-size: 2rem;
     letter-spacing: 0px;
     line-height: 1.5;
   }
 
   body, input, select, textarea {
-    font-size: 1.5rem;
+    font-size: 2rem;
     letter-spacing: 2px;
     line-height: 1.65;;
   }
