@@ -7,7 +7,15 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
   font-size: 100%;
 }
 
-
+.middle {
+   /* 이하 필수 설정 */
+   position: absolute;
+   left: 50%; top: 50%;
+   transform: translate(-50%, -50%);
+   text-align: center;
+   /* 이하 꾸밈 설정 */
+   background: white;
+}
 
 /*  font */
 :lang(ko) {
@@ -17,7 +25,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
   font-size: 20px;
   letter-spacing: 0.6px;
 }
-body, input, select, textarea, p {
+body, input, select, textarea, p, a {
   font-family: 'Roboto', sans-serif;
   line-height: 1.8;
   font-size: 21px;
@@ -26,7 +34,7 @@ body, input, select, textarea, p {
 }
 
 @media only screen and (max-width: 1024px) {
-  body, input, select, textarea {
+  body, input, select, textarea, p, a {
     font-size: 1.6rem;
     letter-spacing: 2px;
     line-height: 1.65;;
@@ -39,7 +47,7 @@ body, input, select, textarea, p {
 }
 
 @media only screen and (max-width: 767px) {
-  body, input, select, textarea {
+  body, input, select, textarea, p, a {
     font-size: 1.8rem;
     letter-spacing: 2px;
     line-height: 1.65;;
@@ -52,7 +60,7 @@ body, input, select, textarea, p {
 }
 
 @media only screen and (max-width: 480px) {
-  body, input, select, textarea {
+  body, input, select, textarea, p, a {
     font-size: 2rem;
     letter-spacing: 2px;
     line-height: 1.65;;
