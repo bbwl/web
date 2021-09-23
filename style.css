@@ -7,15 +7,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
   font-size: 100%;
 }
 
-.middle {
-   /* 이하 필수 설정 */
-   position: absolute;
-   left: 50%; top: 50%;
-   transform: translate(-50%, -50%);
-   text-align: center;
-   /* 이하 꾸밈 설정 */
-   background: white;
-}
+
 
 /*  font */
 :lang(ko) {
