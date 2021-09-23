@@ -1,6 +1,14 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto:300,500,700");
 @import url("https://spoqa.github.io/spoqa-han-sans/css/SpoqaHanSans-kr.css");
 
+html, body, div, p, a, middle {
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
 
 
 .middle {
@@ -11,9 +19,9 @@
    text-align: center;
    /* 이하 꾸밈 설정 */
    background: white;
-   min-width: 480px;
-   padding: 0px;
 }
+
+
 
 /*  font */
 :lang(ko) {
@@ -34,15 +42,19 @@ body, input, select, textarea {
 
 @media screen and (max-width: 780px) {
   :lang(ko) {
-    font-size: 1.5rem;
+    font-size: 1.4rem;
     letter-spacing: 0px;
     line-height: 1.5;
   }
 
   body, input, select, textarea {
-    font-size: 1.5rem;
+    font-size: 1.4rem;
     letter-spacing: 2px;
     line-height: 1.65;;
+  }
+
+  .content .middle {
+    padding: 2rem;
   }
 }
 
@@ -57,5 +69,8 @@ body, input, select, textarea {
     font-size: 2rem;
     letter-spacing: 2px;
     line-height: 1.65;;
+  }
+  .content .middle {
+    padding: 2rem;
   }
 }
