@@ -21,7 +21,6 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 }
 
 
-
 /*  font */
 :lang(ko) {
   font-family: 'Spoqa Han Sans', sans-serif;
@@ -38,9 +37,7 @@ body, input, select, textarea {
   letter-spacing: 2px;
 }
 
-@media screen and (max-width: 1024px) {
-  #content {padding: 0 10px
-  }
+@media only screen and (max-width: 1024px) {
   :lang(ko) {
     font-size: 1.5rem;
     letter-spacing: 0px;
@@ -55,9 +52,7 @@ body, input, select, textarea {
 }
 
 
-@media screen and (max-width: 767px) {
-  #content {padding: 0 10px
-  }
+@media only screen and (max-width: 767px) {
   :lang(ko) {
     font-size: 1.7rem;
     letter-spacing: 0px;
@@ -70,9 +65,7 @@ body, input, select, textarea {
   }
 }
 
-@media screen and (max-width: 480px) {
-  #content {padding: 0 10px
-  }
+@media only screen and (max-width: 480px) {
   :lang(ko) {
     font-size: 1.9rem;
     letter-spacing: 0px;
