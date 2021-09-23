@@ -1,40 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto:300,500,700");
 @import url("https://spoqa.github.io/spoqa-han-sans/css/SpoqaHanSans-kr.css");
 
-html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
-  padding: 0;
-  border: 0;
-  font-size: 100%;
-  font: inherit;
-  vertical-align: baseline;
-}
 
-article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
-  display: block;
-}
-
-
-ol, ul {
-  list-style: none;
-}
-
-blockquote, q {
-  quotes: none;
-}
-
-blockquote:before, blockquote:after, q:before, q:after {
-  content: '';
-  content: none;
-}
-
-table {
-  border-collapse: collapse;
-  border-spacing: 0;
-}
-
-body {
-  -webkit-text-size-adjust: none;
-}
 
 .middle {
    /* 이하 필수 설정 */
@@ -80,19 +47,18 @@ body, input, select, textarea {
 
 @media screen and (max-width: 480px) {
   :lang(ko) {
-    font-size: 1.2rem;
+    font-size: 2rem;
     letter-spacing: 0px;
     line-height: 1.5;
 }
 
-
   body, input, select, textarea {
-    font-size: 1.2rem;
+    font-size: 2rem;
     letter-spacing: 2px;
     line-height: 1.65;;
 }
 
-img {
+  img {
     display: inline-block;
     width: auto\9 !important; /* ie8 */
     width: auto !important;
