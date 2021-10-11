@@ -9,13 +9,12 @@
 
 .content {
   text-align: center;
-  padding: 3rem;
-  border-radius: 1rem;
+  padding: 1rem;
 }
 
 body, input, select, textarea, p, a {
   font-family: 'Roboto', sans-serif;
-  line-height: 1.8;
+  line-height: 1.6;
   font-size: 1.4rem;
   font-weight: 300;
   letter-spacing: 2px;
@@ -32,38 +31,26 @@ body, input, select, textarea, p, a {
 @media only screen and (max-width: 980px) {
   body, input, select, textarea, p, a {
     font-size: 1.5rem;
-    letter-spacing: 2px;
-    line-height: 1.65;;
   }
   :lang(ko) {
     font-size: 1.4rem;
-    letter-spacing: 0px;
-    line-height: 1.6;
   }
 }
 
 @media only screen and (max-width: 780px) {
   body, input, select, textarea, p, a {
-    font-size: 1.5rem;
-    letter-spacing: 2px;
-    line-height: 1.65;;
+    font-size: 1.6rem;
   }
   :lang(ko) {
-    font-size: 1.6rem;
-    letter-spacing: 0px;
-    line-height: 1.5;
+    font-size: 1.5rem;
   }
 }
 
 @media only screen and (max-width: 480px) {
   body, input, select, textarea, p, a {
-    font-size:1.6rem;
-    letter-spacing: 2px;
-    line-height: 1.65;;
+    font-size: 1.7rem;
   }
   :lang(ko) {
-    font-size: 1.7rem;
-    letter-spacing: 0px;
-    line-height: 1.5;
+    font-size: 1.6rem;
   }
 }
